@@ -1,4 +1,4 @@
-![alt text](https://github.com/victorkowalski/yii2-invoices/blob/master/Screenshot_from_ 2020-04-28.png)
+![alt text](https://github.com/victorkowalski/yii2-invoices/blob/master/Screenshot_2020-04-28.png)
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
