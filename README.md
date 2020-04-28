@@ -1,3 +1,6 @@
+![alt text](https://github.com/victorkowalski/yii2-invoices/blob/master/Screenshot_1551178025.png)
+victorkowalski/yii2-invoices/blob/master/Screenshot%20from%202020-04-28%2019-37-31.png
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
