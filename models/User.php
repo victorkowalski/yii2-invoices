@@ -57,18 +57,4 @@ class User extends ActiveRecord
     {
         return $this->hasMany(Billing::class, ['user_id' => 'id']);
     }
-/*
-    public function behaviors()
-    {
-        return [
-            'timestamp' => [
-                'class' => TimestampBehavior::className(),
-                'attributes' => [
-                    ActiveRecord::EVENT_BEFORE_INSERT => ['created_at', 'updated_at'],
-                    ActiveRecord::EVENT_BEFORE_UPDATE => ['updated_at'],
-                ],
-            ],
-        ];
-    }
-    */
 }
