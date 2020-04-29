@@ -16,12 +16,14 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
             [
                 'class' => 'yii\grid\DataColumn', // can be omitted, as it is the default
+                'attribute' => 'User name',
                 'value' => function ($data) {
                     return $data->user->name; // $data['name'] for array data, e.g. using SqlDataProvider.
                 },
             ],
             [
                 'class' => 'yii\grid\DataColumn', // can be omitted, as it is the default
+                'attribute' => 'User email',
                 'value' => function ($data) {
                     return $data->user->email; // $data['name'] for array data, e.g. using SqlDataProvider.
                 },
