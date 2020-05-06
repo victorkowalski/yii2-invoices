@@ -12,6 +12,7 @@ class DownloadJob extends BaseObject implements JobInterface
     
     public function execute($queue)
     {
+        sleep(30);
         file_put_contents($this->file, file_get_contents($this->url));
     }
 }

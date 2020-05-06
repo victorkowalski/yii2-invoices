@@ -39,6 +39,8 @@ class QueueController extends \yii\web\Controller
             $queue = Yii::$app->queue; 
             $queue->run(false);
             
+            //yii queue/run
+            
             //$output = shell_exec('ls'); 
   
             // Display the list of all file 
@@ -51,6 +53,7 @@ class QueueController extends \yii\web\Controller
             $process->run();
             */
 
+            //return \Yii::$app->response->sendFile($file->getPath(), $file->name);
         }
 
         return $this->render('index');
